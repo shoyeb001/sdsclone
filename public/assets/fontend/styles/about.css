@@ -1,0 +1,29 @@
+section.about {
+    padding-top: 6rem;
+}
+
+section.about .container {
+    padding: 1rem 6rem;
+    padding-bottom: 4rem;
+}
+
+section.about .container h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 1rem;
+}
+
+section.about .container p {
+    padding-top: 1.5rem;
+    color: rgb(61, 61, 61);
+}
+
+@media (max-width: 700px) {
+    section.about .container {
+        padding: 1rem 1rem;
+    }
+
+    section.about .container p {
+        padding-top: 1rem;
+    }
+}
