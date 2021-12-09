@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $("#trigger_class").click(function () {
     $(".site-content-wrapper").toggleClass("scaled");
+    $("#mNavSec").toggleClass("view");
+
   });
 });
 
